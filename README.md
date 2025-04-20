@@ -12,7 +12,7 @@
 ## JDKs
 - **Amazon Corretto 8**: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/index.html
 - **Amazon Corretto 11**: https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/index.html
-- **Amazon Corretto 17**: https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/what-is-corretto-17.html
+- **Amazon Corretto 17**: https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/index.html
 - **Amazon Corretto 21**: https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/index.html
 
 
