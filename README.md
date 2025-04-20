@@ -1,3 +1,6 @@
+Configuration files should be located at `$XDG_CONFIG_HOME/nvim/` (Linux) or `%LOCALAPPDATA%\nvim\` (Windows).
+
+
 # External Dependencies
 ## LSP Servers
 - **Eclipse JDT Language Server**: https://github.com/eclipse-jdtls/eclipse.jdt.ls
