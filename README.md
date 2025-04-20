@@ -4,7 +4,7 @@
 - **Lua Language Server**: https://github.com/LuaLS/lua-language-server
 
 ## DAP Debug Adapters
-- **Java Debug Server (JDT Plugin)**: https://github.com/microsoft/java-debug
+- **Java Debug Server** (JDT Plugin): https://github.com/microsoft/java-debug
 
 ## Node.js Packages
 - `vscode-langservers-extracted`: https://github.com/hrsh7th/vscode-langservers-extracted
