@@ -5,12 +5,10 @@ Configuration files should be located at `$XDG_CONFIG_HOME/nvim/` (Linux) or `%L
 ## LSP Servers
 - **Eclipse JDT Language Server**: https://github.com/eclipse-jdtls/eclipse.jdt.ls
 - **Lua Language Server**: https://github.com/LuaLS/lua-language-server
+- `vscode-langservers-extracted` (Node.js) : https://github.com/hrsh7th/vscode-langservers-extracted
 
 ## DAP Debug Adapters
 - **Java Debug Server** (JDT Plugin): https://github.com/microsoft/java-debug
-
-## Node.js Packages
-- `vscode-langservers-extracted`: https://github.com/hrsh7th/vscode-langservers-extracted
 
 ## JDKs
 - **Amazon Corretto 8**: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/index.html
