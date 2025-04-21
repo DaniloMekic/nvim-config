@@ -1,4 +1,6 @@
-Configuration files should be located at `$XDG_CONFIG_HOME/nvim/` (Linux) or `%LOCALAPPDATA%\nvim\` (Windows).
+Configuration files should be placed at:
+- `$XDG_CONFIG_HOME/nvim/` (Linux) 
+- `%LOCALAPPDATA%\nvim\` (Windows)
 
 
 # External Dependencies
