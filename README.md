@@ -20,6 +20,7 @@ Configuration files should be placed at:
 - **Amazon Corretto 21**: https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/index.html
 
 
-# Environment Variables
-- Update `PATH` with paths to `\bin` directories of JDT and Lua LSP servers.
-- Set `JAVA_HOME` to Java 21 runtime environment (at minimum) since it's required by JDT to run.
+# Environment Variables and Paths
+- Update `$PATH` with paths to `\bin` directories of JDT and Lua LSP servers.
+- Set `$JAVA_HOME` to Java 21 runtime environment (at minimum) since it's required by JDT to run.
+- Paths used internally are set in `nvim\lua\config\paths.lua`. 
