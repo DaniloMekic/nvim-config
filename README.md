@@ -11,6 +11,7 @@ Configuration files should be placed at:
 
 ## DAP Debug Adapters
 - **Java Debug Server** (JDT Plugin): https://github.com/microsoft/java-debug
+    - Loaded from `~\Programs\java-debug-*\` (Windows)
 
 ## JDKs
 - **Amazon Corretto 8**: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/index.html
