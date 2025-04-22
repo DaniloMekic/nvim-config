@@ -8,6 +8,7 @@ require("config.variables")
 -- LSP Servers
 vim.lsp.enable({
   "jdtls",
+  "clangd",
   "lua_ls",
   "html",
   "cssls",
