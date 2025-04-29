@@ -12,5 +12,6 @@ vim.lsp.enable({
   "lua_ls",
   "html",
   "cssls",
-  "ts_ls"
+  "ts_ls",
+  "basedpyright"
 })
