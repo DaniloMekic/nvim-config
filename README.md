@@ -5,7 +5,7 @@ Configuration files should be placed at:
 
 # External Dependencies
 - **Lua**
-  - **Lua Interpreter**: https://www.lua.org, 
+  - **Lua Interpreter**: https://www.lua.org
   - **Lua Language Server**: https://github.com/LuaLS/lua-language-server
 - **Python**: 
   - **Python 3**: https://www.python.org
@@ -29,4 +29,4 @@ Configuration files should be placed at:
 # Environment Variables and Paths
 - Update `$PATH` with paths to directories containing binaries of clangd, JDT, and Lua LSP servers.
 - Set `$JAVA_HOME` to Java 21 runtime environment (at minimum) since it's required by JDT to run.
-- Paths used internally are set in `nvim\lua\config\paths.lua`. 
+- Paths used internally are set in `nvim\lua\config\paths.lua`.
