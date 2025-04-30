@@ -4,18 +4,26 @@ Configuration files should be placed at:
 
 
 # External Dependencies
-- **Python**: https://www.python.org
+- **Lua**
+  - **Lua Interpreter**: https://www.lua.org, 
+  - **Lua Language Server**: https://github.com/LuaLS/lua-language-server
+- **Python**: 
+  - **Python 3**: https://www.python.org
+  - **Basedpyright**: https://github.com/DetachHead/basedpyright, https://docs.basedpyright.com/latest
+  - **ruff**: https://github.com/astral-sh/ruff, https://docs.astral.sh/ruff
 - **Java**
   - **Amazon Corretto 8**: https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/index.html
   - **Amazon Corretto 11**: https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/index.html
   - **Amazon Corretto 17**: https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/index.html
   - **Amazon Corretto 21**: https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/index.html
-- **clangd**: https://github.com/clangd/clangd
-- **Eclipse JDT Language Server**: https://github.com/eclipse-jdtls/eclipse.jdt.ls
-- **Java Debug Server** (JDT Plugin): https://github.com/microsoft/java-debug
-- **Lua Language Server**: https://github.com/LuaLS/lua-language-server
+  - **Eclipse JDT Language Server**: https://github.com/eclipse-jdtls/eclipse.jdt.ls
+    - **Java Debug Server** (JDT Plugin): https://github.com/microsoft/java-debug
+  - **Maven**: https://maven.apache.org
+- **C/C++**
+  - **MinGW-w64**: https://www.mingw-w64.org
+  - **clangd**: https://github.com/clangd/clangd, https://clangd.llvm.org
 - **VS Code Language Servers** (Node.js): https://github.com/hrsh7th/vscode-langservers-extracted
-- **ruff**: https://github.com/astral-sh/ruff
+- **Git**: https://git-scm.com
 
 
 # Environment Variables and Paths
