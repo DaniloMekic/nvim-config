@@ -1,6 +1,8 @@
 -- Text lines
 vim.opt.number = true                            -- Print line number in front of each line.
 vim.opt.relativenumber = true                    -- Show the line number relative to the line with the cursor in front of each line.
+vim.opt.numberwidth = 4                          -- Width of the line number.
+vim.opt.signcolumn = auto                        -- Render signcolumn only when there is sign to show.
 vim.opt.cursorline = true                        -- Highlight the text line of the cursor.
 
 -- TAB spaces to WHITESPACE

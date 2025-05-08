@@ -1,6 +1,6 @@
 return {
-  { 
-    "neovim/nvim-lspconfig" 
+  {
+    "neovim/nvim-lspconfig"
   },
   {
     "mason-org/mason.nvim",
@@ -13,7 +13,7 @@ return {
       "mason-org/mason.nvim"
     },
     opts = {
-      automatic_enable = {
+      ensure_installed = {
         "jdtls",
         "clangd",
         "lua_ls",
