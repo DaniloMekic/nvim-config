@@ -19,4 +19,4 @@ Configuration files should be placed at:
 
 # Environment Variables and Paths
 - Set `$JAVA_HOME` to Java 21 runtime environment (at minimum) since it's required by JDTLS to run.
-- Paths used internally are set in `nvim\lua\config\paths.lua`.
+- Paths used internally are set in `nvim/lua/config/paths.lua`.
