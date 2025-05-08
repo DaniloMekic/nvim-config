@@ -1,11 +1,16 @@
 return { 
-  {
-    "neovim/nvim-lspconfig",
-    init = function() 
-      local lsp_config_path = require("lazy.core.config").options.root .. "/nvim-lspconfig"
-
-      -- INFO `prepend` ensures the configs are loaded before user's LSP configs defined in `nvim/lsp/`
-      vim.opt.runtimepath:prepend(lsp_config_path)
-    end
-  }
+  "neovim/nvim-lspconfig",
+  config = function()
+    vim.lsp.config("*", {})
+    vim.lsp.enable({
+      "jdtls",
+      "clangd",
+      "lua_ls",
+      "html",
+      "cssls",
+      "ts_ls",
+      "basedpyright",
+      "ruff"
+    })
+  end
 }

@@ -12,10 +12,10 @@ vim.opt.shiftwidth = 2                           -- Number of spaces to use for 
 -- Display control characters
 vim.opt.list = true                              -- Enable 'list' mode.
 vim.opt.listchars = {                            -- Strings to use in 'list' mode.
-  tab = ">-", 
-  space = "·", 
-  trail = "·", 
-  eol = "$" 
+  tab = ">-",
+  space = "·",
+  trail = "·",
+  eol = "$"
 }
 
 vim.opt.splitright = true                        -- Splitting a window vertically will put the new window right of the current one.
