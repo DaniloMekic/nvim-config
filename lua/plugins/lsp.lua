@@ -1,6 +1,13 @@
 return {
   {
-    "neovim/nvim-lspconfig"
+    "neovim/nvim-lspconfig",
+    config = function ()
+      require("java").setup({
+        jdk = {
+          auto_install = false
+        }
+      })
+    end
   },
   {
     "mason-org/mason.nvim",
