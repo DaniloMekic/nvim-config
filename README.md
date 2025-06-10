@@ -1,6 +1,5 @@
 Configuration files should be placed at:
-- `$XDG_CONFIG_HOME/nvim/` (Linux)
-- `%LOCALAPPDATA%\nvim\` (Windows)
+- `$XDG_CONFIG_HOME/nvim/`
 
 
 # External Dependencies
@@ -16,5 +15,4 @@ Configuration files should be placed at:
 
 
 # Environment Variables and Paths
-- Set `$JAVA_HOME` to Java 21 runtime environment (at minimum) since it's required by JDTLS to run.
 - Paths used internally are set in `nvim/lua/config/paths.lua`.
