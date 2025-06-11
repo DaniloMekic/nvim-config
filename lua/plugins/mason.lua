@@ -11,7 +11,8 @@ return {
       "basedpyright",
       "ruff",
       "bashls",
-      "markdown_oxide"
+      "markdown_oxide",
+      "lemminx"
     }
   },
   dependencies = {
