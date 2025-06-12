@@ -14,3 +14,6 @@ vim.keymap.set("n", "<Leader>fh", telescope.help_tags, { desc = "Telescope help 
 -- Oil
 local oil = require("oil")
 vim.keymap.set("n", "<Leader>e", function () oil.toggle_float() end)
+
+-- Diagnostics
+vim.keymap.set("n", "<Leader>ca", function () vim.lsp.buf.code_action() end, { desc = "LSP code action" })
