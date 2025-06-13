@@ -13,6 +13,9 @@ return {
       "bashls",
       "markdown_oxide",
       "lemminx"
+    },
+    automatic_enable = {
+      exclude = { "jdtls" } -- Manual loading and custom configuration. See `nvim/init.lua`
     }
   },
   dependencies = {

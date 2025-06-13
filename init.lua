@@ -5,3 +5,7 @@ require("config.keymaps")
 require("config.variables")
 require("config.diagnostics")
 require("config.lsp")
+
+-- Manual JDTLS loading and configuration via `nvim/lsp/jdtls.lua`
+-- Other LSP servers and managed with Mason
+vim.lsp.enable({ "jdtls" })
