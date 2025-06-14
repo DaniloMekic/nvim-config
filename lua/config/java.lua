@@ -1,3 +1,7 @@
+-- Eclipse JDT Language Server (JDTLS)
+-- Wiki: https://github.com/eclipse-jdtls/eclipse.jdt.ls/wiki
+-- `org.eclipse.jdt.ls.core.internal.preferences.Preferences`: https://github.com/eclipse-jdtls/eclipse.jdt.ls/blob/main/org.eclipse.jdt.ls.core/src/org/eclipse/jdt/ls/core/internal/preferences/Preferences.java
+
 -- JDTLS Paths
 local jdtls_home = vim.fn.expand("$MASON/packages/jdtls")
 local jdtls_jar = vim.fn.globpath(jdtls_home .. "/plugins", "org.eclipse.equinox.launcher_*.jar")
