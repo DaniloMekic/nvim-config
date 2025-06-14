@@ -6,6 +6,7 @@ require("config.variables")
 require("config.diagnostics")
 require("config.lsp")
 
--- Manual JDTLS loading and configuration via `nvim/lsp/jdtls.lua`
--- Other LSP servers and managed with Mason
+-- Java
+-- Manual JDTLS loading and configuration via `nvim/lua/config/java.lua`
+require("config.java")
 vim.lsp.enable({ "jdtls" })
