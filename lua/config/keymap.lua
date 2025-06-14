@@ -1,3 +1,4 @@
+-- Explore `h: defaults`
 vim.g.mapLeader = " "
 
 -- Buffers Navigation
