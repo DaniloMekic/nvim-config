@@ -2,20 +2,23 @@ return {
   "mason-org/mason-lspconfig.nvim",
   opts = {
     ensure_installed = {
-      "jdtls",
-      "clangd",
-      "lua_ls",
-      "html",
-      "cssls",
-      "ts_ls",
-      "basedpyright",
-      "ruff",
-      "bashls",
-      "markdown_oxide",
-      "lemminx"
+      "vimls",                    -- VimScript
+      "jdtls",                    -- Java
+      "clangd",                   -- C, C++
+      "lua_ls",                   -- Lua
+      "html",                     -- HTML
+      "cssls",                    -- CSS
+      "ts_ls",                    -- TypeScript
+      "basedpyright",             -- Python LSP
+      "ruff",                     -- Python Linter/Code Formatter
+      "bashls",                   -- Bash
+      "markdown_oxide",           -- Markdown
+      "lemminx",                  -- XML
+      "yamlls",                   -- YAML
+      "taplo"                     -- TOML
     },
     automatic_enable = {
-      exclude = { "jdtls" } -- Manual loading and custom configuration. See `nvim/init.lua`
+      exclude = { "jdtls" } -- See `nvim/ftplugin/java.lua`
     }
   },
   dependencies = {

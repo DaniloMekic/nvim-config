@@ -2,7 +2,9 @@
 -- Wiki: https://github.com/eclipse-jdtls/eclipse.jdt.ls/wiki
 -- `org.eclipse.jdt.ls.core.internal.preferences.Preferences`: https://github.com/eclipse-jdtls/eclipse.jdt.ls/blob/main/org.eclipse.jdt.ls.core/src/org/eclipse/jdt/ls/core/internal/preferences/Preferences.java
 
+--
 -- JDTLS Paths
+--
 local jdtls_home = vim.fn.expand("$MASON/packages/jdtls")
 local jdtls_jar = vim.fn.globpath(jdtls_home .. "/plugins", "org.eclipse.equinox.launcher_*.jar")
 local jdtls_config_linux = jdtls_home .. "/config_linux"
@@ -23,6 +25,17 @@ if vim.fn.isdirectory(workspace_root) == 0 then
   vim.fn.mkdir(workspace_root, "p")
 end
 
+--
+-- JDTLS Plugins
+--
+local jdtls_plugins = {}
+-- Ensure Spring Tools are installed via `:MasonInstall vscode-spring-boot-tools`
+local spring_boot = require("spring_boot").java_extensions()
+vim.list_extend(jdtls_plugins, spring_boot)
+
+--
+-- JDTLS Config
+--
 local config = {
   -- The command that starts the language server
   -- See: https://github.com/eclipse/eclipse.jdt.ls#running-from-the-command-line
@@ -42,9 +55,7 @@ local config = {
     "-data", workspace_dir
   },
   root_dir = project_root,
-  filetypes = { "java" },
 
-  -- Here you can configure eclipse.jdt.ls specific settings
   -- See https://github.com/eclipse/eclipse.jdt.ls/wiki/Running-the-JAVA-LS-server-from-the-command-line#initialize-request
   -- for a list of options
   settings = {
@@ -53,15 +64,10 @@ local config = {
   },
 
   -- Language server `initializationOptions`
-  -- You need to extend the `bundles` with paths to jar files
-  -- if you want to use additional eclipse.jdt.ls plugins.
-  --
-  -- See https://github.com/mfussenegger/nvim-jdtls#java-debug-installation
-  --
-  -- If you don"t plan on using the debugger or other eclipse.jdt.ls plugins you can remove this
+  -- `bundles` table needs to be extended with paths to jar files
   init_options = {
     jvm_args = {},
-    bundles = {}
+    bundles = jdtls_plugins
   },
 }
 
