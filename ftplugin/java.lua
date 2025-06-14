@@ -2,6 +2,7 @@
 -- Wiki: https://github.com/eclipse-jdtls/eclipse.jdt.ls/wiki
 -- `org.eclipse.jdt.ls.core.internal.preferences.Preferences`: https://github.com/eclipse-jdtls/eclipse.jdt.ls/blob/main/org.eclipse.jdt.ls.core/src/org/eclipse/jdt/ls/core/internal/preferences/Preferences.java
 
+
 --
 -- JDTLS Paths
 --
@@ -25,13 +26,17 @@ if vim.fn.isdirectory(workspace_root) == 0 then
   vim.fn.mkdir(workspace_root, "p")
 end
 
+
 --
 -- JDTLS Plugins
 --
 local jdtls_plugins = {}
--- Ensure Spring Tools are installed via `:MasonInstall vscode-spring-boot-tools`
+-- Spring Tools: https://spring.io/tools
+-- Install via `:MasonInstall vscode-spring-boot-tools`
 local spring_boot = require("spring_boot").java_extensions()
+
 vim.list_extend(jdtls_plugins, spring_boot)
+
 
 --
 -- JDTLS Config
