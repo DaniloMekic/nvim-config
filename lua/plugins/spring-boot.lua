@@ -4,5 +4,5 @@ return {
   dependencies = {
     "mfussenegger/nvim-jdtls"
   },
-  config = false
+  opts = {}
 }
