@@ -1,4 +1,7 @@
 -- Explore `h: defaults`
+-- Useful defaults:
+---- `:help K` and `:help vim.lsp.buf.hover()`
+
 vim.g.mapLeader = " "
 
 -- Buffers Navigation
