@@ -1,6 +1,7 @@
 -- Explore `h: defaults`
 -- Useful defaults:
----- `:help K` and `:help vim.lsp.buf.hover()`
+---- Display hover info about symbol under the cursor: `:help K` and `:help vim.lsp.buf.hover()`
+---- Go to definition: `:help gd`
 
 vim.g.mapLeader = " "
 
