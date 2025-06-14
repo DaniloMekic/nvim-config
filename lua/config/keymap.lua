@@ -2,6 +2,7 @@
 vim.g.mapLeader = " "
 
 -- Buffers Navigation
+-- See `:help CTRL-^` for switching to the previously edited file.
 vim.keymap.set("n", "<Leader><Tab>", ":bnext<CR>")                                                 -- Switch window to the next buffer.
 vim.keymap.set("n", "<Leader><S-Tab>", ":bprevious<CR>")                                           -- Switch window to the previous buffer.
 
