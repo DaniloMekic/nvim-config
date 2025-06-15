@@ -6,10 +6,7 @@ return {
   priority = 1000,
   opts = {
     theme = "wave"
-  },
-  config = function()
-    vim.cmd([[colorscheme kanagawa]])
-  end
+  }
 }
 
 -- Catppuccin
@@ -17,11 +14,9 @@ return {
 -- return {
 --   "catppuccin/nvim",
 --   lazy = false,
---   name = "catppuccin",
 --   priority = 1000,
---   config = function()
---     vim.cmd([[colorscheme catppuccin]])
---   end
+--   name = "catppuccin",
+--   opts = {}
 -- }
 
 -- Tokyo Night
@@ -30,8 +25,5 @@ return {
 --   "folke/tokyonight.nvim",
 --   lazy = false,
 --   priority = 1000,
---   opts = {},
---   config = function ()
---     vim.cmd[[colorscheme tokyonight]]
---   end
+--   opts = {}
 -- }
