@@ -10,7 +10,7 @@ local jdtls_home = vim.fn.expand("$MASON/packages/jdtls")
 local jdtls_jar = vim.fn.globpath(jdtls_home .. "/plugins", "org.eclipse.equinox.launcher_*.jar")
 local jdtls_config_linux = jdtls_home .. "/config_linux"
 
--- Project Paths
+-- JDTLS Project Paths
 local project_name = vim.fn.fnamemodify(vim.fn.getcwd(), ":p:h:t")
 local project_root = vim.fs.root(0, { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" })
 if project_root == "." then -- Dot instead of a canonical path would throw java.net.URISyntaxException
@@ -34,9 +34,12 @@ local jdtls_plugins = {}
 -- Spring Tools: https://spring.io/tools
 -- Install via `:MasonInstall vscode-spring-boot-tools`
 local spring_boot = require("spring_boot").java_extensions()
-
 vim.list_extend(jdtls_plugins, spring_boot)
 
+-- Java Agents
+local java_agents = {
+  lombok = vim.fn.expand("$MASON/packages/jdtls/lombok.jar")
+}
 
 --
 -- JDTLS Config
@@ -55,6 +58,7 @@ local config = {
     "--add-modules=ALL-SYSTEM",
     "--add-opens", "java.base/java.util=ALL-UNNAMED",
     "--add-opens", "java.base/java.lang=ALL-UNNAMED",
+    "-javaagent:" .. java_agents["lombok"],
     "-jar", jdtls_jar,
     "-configuration", jdtls_config_linux,
     "-data", workspace_dir
