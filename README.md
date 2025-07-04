@@ -6,7 +6,7 @@ Configuration files should be placed at:
 - **Lua**: https://www.lua.org
 - **Python**: https://www.python.org
 - **Java**
-  - **Temurin**: https://adoptium.net/temurin/releases
+  - **OpenJDK**: https://wiki.archlinux.org/title/Java
   - **Maven**: https://maven.apache.org
 - **C/C++**
   - **GCC**: https://gcc.gnu.org
