@@ -12,6 +12,7 @@ Configuration files should be placed at:
   - **GCC**: https://gcc.gnu.org
   - **MinGW-w64**: https://www.mingw-w64.org
 - **Mason**-specific: https://github.com/mason-org/mason.nvim#requirements
+- **fzf**: https://github.com/junegunn/fzf
 
 
 # Environment Variables and Paths
