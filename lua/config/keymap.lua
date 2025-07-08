@@ -3,6 +3,7 @@
 ---- Display hover info about symbol under the cursor: `:help K` and `:help vim.lsp.buf.hover()`
 ---- Go to definition: `:help gd`
 ---- Comment lines: `:help gc`
+---- References: `:help grr`
 
 vim.g.mapLeader = " "
 
