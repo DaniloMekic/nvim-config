@@ -11,6 +11,7 @@ Configuration files should be placed at:
 - **C/C++**
   - **GCC**: https://gcc.gnu.org
   - **MinGW-w64**: https://www.mingw-w64.org
+- **Go**: https://go.dev/doc/install
 - **Mason**-specific: https://github.com/mason-org/mason.nvim#requirements
 - **fzf**: https://github.com/junegunn/fzf
 

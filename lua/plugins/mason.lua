@@ -2,6 +2,7 @@ return {
   "mason-org/mason-lspconfig.nvim",
   opts = {
     ensure_installed = {
+      -- Valid LSP Names: github.com/neovim/nvim-lspconfig/tree/master/lsp
       "vimls",                    -- VimScript
       "jdtls",                    -- Java
       "clangd",                   -- C, C++
@@ -15,7 +16,8 @@ return {
       "markdown_oxide",           -- Markdown
       "lemminx",                  -- XML
       "yamlls",                   -- YAML
-      "taplo"                     -- TOML
+      "taplo",                    -- TOML
+      "docker_language_server"    -- Docker
     },
     automatic_enable = {
       exclude = { "jdtls" } -- See `nvim/ftplugin/java.lua`
