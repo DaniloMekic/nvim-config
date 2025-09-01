@@ -11,14 +11,24 @@ vim.opt.tabstop = 2                              -- Number of spaces that a <Tab
 vim.opt.softtabstop = 2                          -- Number of spaces that a <Tab> counts for while performing editing operations, like inserting a <Tab> or using <BS>.
 vim.opt.shiftwidth = 2                           -- Number of spaces to use for each step of (auto)indent. Used for 'cindent', >>, <<, etc.
 
+-- Indentation
+vim.opt.smarttab = true                          -- A <Tab> in front of a line inserts blanks according to 'shiftwidth'.
+vim.opt.smartindent = true                       -- Autoindent when starting a new line.
+vim.opt.autoindent = true                        -- Keep indentation from previous line.
+
 -- Display control characters
 vim.opt.list = true                              -- Enable 'list' mode.
 vim.opt.listchars = {                            -- Strings to use in 'list' mode.
   tab = ">-",
   space = "·",
+  lead = "·",
   trail = "·",
   eol = "$"
 }
+
+-- Searching
+vim.opt.ignorecase = true
+vim.opt.smartcase = true                         -- If search string contains at least one uppercase letter, it performs case-sensitive search.
 
 vim.opt.splitright = true                        -- Splitting a window vertically will put the new window right of the current one.
 vim.opt.splitbelow = true                        -- Splitting a window horizontally will put the new window below the current one.
@@ -29,3 +39,6 @@ vim.opt.showcmd = true                           -- Show (partial) command in th
 
 -- Colors
 vim.opt.termguicolors = true                     -- Enables 24-bit RGB color in the TUI.
+
+vim.opt.undofile = true
+vim.opt.showmode = false                         -- Disabling since custom status line displays current mode.
