@@ -40,6 +40,16 @@ return {{
           sync_install = false,
           highlight = { enable = true },
           indent = { enable = true },
+          incremental_selection = {
+            enable = true,
+            keymaps = {
+              -- Set to `false` to disable one of the mappings
+              init_selection = "gnn",
+              node_incremental = "grn",
+              scope_incremental = "grc",
+              node_decremental = "grm",
+            },
+        },
         })
     end
 }}
