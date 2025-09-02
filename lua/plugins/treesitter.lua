@@ -38,8 +38,12 @@ return {{
             "query"
           },
           sync_install = false,
-          highlight = { enable = true },
-          indent = { enable = true },
+          highlight = {
+            enable = true
+          },
+          indent = {
+            enable = true -- See :help indent-expression and :help 'indentexpr'
+          },
           incremental_selection = {
             enable = true,
             keymaps = {
@@ -49,7 +53,7 @@ return {{
               scope_incremental = "grc",
               node_decremental = "grm",
             },
-        },
+          },
         })
     end
 }}
