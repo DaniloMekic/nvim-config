@@ -4,6 +4,6 @@ vim.api.nvim_create_autocmd("LspAttach", {
   callback = function(e)
     local bufopts = {buffer = e.buf }
     -- See :help lsp-defaults
-    vim.keymap.set("n", "gd", vim.lsp.buf.definition, bufopts)
+    vim.keymap.set("n", "grd", vim.lsp.buf.definition, bufopts)
   end
 })
