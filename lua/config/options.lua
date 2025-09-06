@@ -42,3 +42,7 @@ vim.opt.termguicolors = true                     -- Enables 24-bit RGB color in 
 
 vim.opt.undofile = true
 vim.opt.showmode = false                         -- Disabling since custom status line displays current mode.
+
+-- Spell check
+vim.opt.spell = true
+vim.opt.spelllang = "en_us"
