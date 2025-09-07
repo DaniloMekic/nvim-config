@@ -5,7 +5,7 @@ vim.opt.numberwidth = 4                          -- Width of the line number.
 vim.opt.signcolumn = auto                        -- Render signcolumn only when there is sign to show.
 vim.opt.cursorline = true                        -- Highlight the text line of the cursor.
 
--- TAB spaces to WHITESPACE
+-- <Tab> spaces to <Space>
 vim.opt.expandtab = true                         -- In Insert mode when Tab key is pressed inserts <Space> characters. Number of <Space> characters is determined by 'tabstop' option.
 vim.opt.tabstop = 2                              -- Number of spaces that a <Tab> in the file counts for, i.e. how many columns does it occupy. Also influences how <Tab> spaces are displayed in 'list' mode.
 vim.opt.softtabstop = 2                          -- Number of spaces that a <Tab> counts for while performing editing operations, like inserting a <Tab> or using <BS>.
@@ -46,3 +46,7 @@ vim.opt.showmode = false                         -- Disabling since custom statu
 -- Spell check
 vim.opt.spell = true
 vim.opt.spelllang = "en_us"
+
+-- Wildmenu
+vim.opt.wildmenu = true
+vim.opt.wildmode = "full"                        -- How Vim handles <Tab> completion.
