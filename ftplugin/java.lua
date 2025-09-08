@@ -11,11 +11,12 @@ local jdtls_jar = vim.fn.globpath(jdtls_home .. "/plugins", "org.eclipse.equinox
 local jdtls_config_linux = jdtls_home .. "/config_linux"
 
 -- JDTLS Project Paths
-local project_name = vim.fn.fnamemodify(vim.fn.getcwd(), ":p:h:t")
 local project_root = vim.fs.root(0, { ".git", "mvnw", "gradlew", "pom.xml", "build.gradle" })
 if project_root == "." then -- Dot instead of a canonical path would throw java.net.URISyntaxException
   project_root = vim.fn.fnamemodify(project_root, ":p")
 end
+
+local project_name = vim.fn.fnamemodify(project_root, ":p:h:t")
 
 -- JDTLS Workspace Paths
 local workspace_root = vim.fn.expand("~/.local/share/jdtls/")
