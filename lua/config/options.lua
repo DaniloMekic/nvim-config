@@ -7,9 +7,9 @@ vim.opt.cursorline = true                        -- Highlight the text line of t
 
 -- <Tab> spaces to <Space>
 vim.opt.expandtab = true                         -- In Insert mode when Tab key is pressed inserts <Space> characters. Number of <Space> characters is determined by 'tabstop' option.
-vim.opt.tabstop = 2                              -- Number of spaces that a <Tab> in the file counts for, i.e. how many columns does it occupy. Also influences how <Tab> spaces are displayed in 'list' mode.
-vim.opt.softtabstop = 2                          -- Number of spaces that a <Tab> counts for while performing editing operations, like inserting a <Tab> or using <BS>.
-vim.opt.shiftwidth = 2                           -- Number of spaces to use for each step of (auto)indent. Used for 'cindent', >>, <<, etc.
+vim.opt.tabstop = 4                              -- Number of virtual columns a <Tab> character will occupy.
+vim.opt.softtabstop = 4                          -- While performing editing operations, like inserting a <Tab> or using <BS>, cursor will move to columns divisible by `softtabstop` value.
+vim.opt.shiftwidth = 4                           -- Number of spaces to use for each step of (auto)indent. Used for 'cindent', >>, <<, etc.
 
 -- Indentation
 vim.opt.smarttab = true                          -- A <Tab> in front of a line inserts blanks according to 'shiftwidth'.
