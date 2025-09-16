@@ -23,3 +23,4 @@ Configuration files should be placed at:
 - **Code Formatter**: [conform](https://github.com/stevearc/conform.nvim)
 - **Linter**: [nvim-lint](https://github.com/mfussenegger/nvim-lint)
 - **Code Completion**: [blink.cmp](https://github.com/Saghen/blink.cmp)
+- **Snippet Engine**: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
