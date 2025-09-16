@@ -18,3 +18,8 @@ Configuration files should be placed at:
 
 # Environment Variables and Paths
 - Paths used internally are set in `nvim/lua/config/paths.lua`.
+
+# Plugins
+- **Code Formatter**: [conform](https://github.com/stevearc/conform.nvim)
+- **Linter**: [nvim-lint](https://github.com/mfussenegger/nvim-lint)
+- **Code Completion**: [blink.cmp](https://github.com/Saghen/blink.cmp)
