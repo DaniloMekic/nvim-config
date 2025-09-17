@@ -21,7 +21,8 @@ Configuration files should be placed at:
 
 # Plugins
 - **File Explorer**: [Oil](https://github.com/stevearc/oil.nvim)
-- **Code Formatting**: [conform](https://github.com/stevearc/conform.nvim)
+- **Language Server Protocol** (LSP) **Server Management**: [Mason](github.com/mason-org/mason.nvim)
+- **Code Formatting**: [conform](https://github.com/stevearc/conform.nvim), [mason-conform](https://github.com/zapling/mason-conform.nvim)
 - **Linting**: [nvim-lint](https://github.com/mfussenegger/nvim-lint)
 - **Code Completion Engine**: [blink.cmp](https://github.com/Saghen/blink.cmp)
 - **Snippet Engine**: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
