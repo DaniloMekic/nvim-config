@@ -21,10 +21,10 @@ Configuration files should be placed at:
 
 # Plugins
 - **File Explorer**: [Oil](https://github.com/stevearc/oil.nvim)
-- **Code Formatter**: [conform](https://github.com/stevearc/conform.nvim)
-- **Linter**: [nvim-lint](https://github.com/mfussenegger/nvim-lint)
-- **Code Completion**: [blink.cmp](https://github.com/Saghen/blink.cmp)
+- **Code Formatting**: [conform](https://github.com/stevearc/conform.nvim)
+- **Linting**: [nvim-lint](https://github.com/mfussenegger/nvim-lint)
+- **Code Completion Engine**: [blink.cmp](https://github.com/Saghen/blink.cmp)
 - **Snippet Engine**: [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
-- **Debug Adapter Protocol** (DAP) Client: [nvim-dap](https://github.com/mfussenegger/nvim-dap)
+- **Debug Adapter Protocol** (DAP) **Client**: [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - **Statusline**: [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 - **Pattern Matching**: [Vim Match-up](https://github.com/andymass/vim-matchup)
