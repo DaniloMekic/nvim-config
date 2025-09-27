@@ -25,6 +25,7 @@ return {{
                 "yaml",
                 "toml",
                 "csv", -- CSV, PSV, TSV
+                "xml",
                 -- Configs & Configuration Languages
                 "git_config", "gitattributes", "gitcommit", "gitignore",
                 "ssh_config",
