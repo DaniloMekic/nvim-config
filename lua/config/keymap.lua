@@ -14,8 +14,8 @@ vim.keymap.set("n", "<Leader><S-Tab>", ":bprevious<CR>")                        
 
 -- QuickFix List
 -- See `:help default-mappings`; `:help [q`; `:help ]q`
-vim.keymap.set("n", "<Leader>q", ":copen")                                                         -- Open quickfix window
-vim.keymap.set("n", "<Leader>Q", ":cclose")                                                        -- Close quickfix window
+vim.keymap.set("n", "<Leader>q", ":copen<CR>")                                                     -- Open quickfix window
+vim.keymap.set("n", "<Leader>Q", ":cclose<CR>")                                                    -- Close quickfix window
 
 -- Oil
 local oil = require("oil")
