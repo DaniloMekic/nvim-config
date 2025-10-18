@@ -8,6 +8,7 @@ return {
         formatters_by_ft = {
             python = { "isort", "black" },
             javascript = { "prettierd", "prettier", stop_after_first = true },
+            java = { "google-java-format", lsp_format = "fallback" },
         },
 
         -- Setup autocommand for BufWritePre event
