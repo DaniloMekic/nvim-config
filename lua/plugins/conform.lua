@@ -11,6 +11,13 @@ return {
             java = { "google-java-format", lsp_format = "fallback" },
         },
 
+        formatters = {
+            ["google-java-format"] = {
+                -- Use 4 space indents per Android Open Source Project (AOSP), instead of 2 per Google Java Style Guide
+                prepend_args = { "--aosp" }
+            }
+        },
+
         -- Setup autocommand for BufWritePre event
         format_on_save = {
             -- These options will be passed to conform.format()
