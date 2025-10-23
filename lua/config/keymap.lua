@@ -8,7 +8,6 @@
 vim.g.mapLeader = " "
 
 vim.keymap.set("n", "<Leader>w", ":write<CR>")
-vim.keymap.set("n", "<Leader>q", ":quit<CR>")
 
 -- Buffers Navigation
 -- See `:help CTRL-^` for switching to the previously edited file.
