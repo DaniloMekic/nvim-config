@@ -9,11 +9,6 @@ vim.g.mapLeader = " "
 
 vim.keymap.set("n", "<Leader>w", ":write<CR>")
 
--- Buffers Navigation
--- See `:help CTRL-^` for switching to the previously edited file.
-vim.keymap.set("n", "<Leader><Tab>", ":bnext<CR>")                                                 -- Switch window to the next buffer.
-vim.keymap.set("n", "<Leader><S-Tab>", ":bprevious<CR>")                                           -- Switch window to the previous buffer.
-
 -- QuickFix List
 -- See `:help default-mappings`; `:help [q`; `:help ]q`
 vim.keymap.set(
