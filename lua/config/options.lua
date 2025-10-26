@@ -50,3 +50,5 @@ vim.opt.spelllang = "en_us"
 -- Wildmenu
 vim.opt.wildmenu = true
 vim.opt.wildmode = "full"                        -- How Vim handles <Tab> completion.
+
+vim.opt.winborder = "rounded"
