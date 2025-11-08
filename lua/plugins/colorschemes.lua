@@ -6,11 +6,8 @@ return {
     lazy = false,
     priority = 1000,
     opts = {
-      theme = "wave"
+      theme = "dragon"
     },
-    init = function ()
-      vim.cmd([[colorscheme kanagawa]])
-    end
   },
   {
     "catppuccin/nvim",
