@@ -8,6 +8,9 @@ return {
     opts = {
       theme = "dragon"
     },
+    init = function ()
+        vim.cmd([[colorscheme kanagawa-dragon]])
+    end
   },
   {
     "catppuccin/nvim",
