@@ -1,8 +1,18 @@
 return {
   {
+    "ellisonleao/gruvbox.nvim",
+    enabled = true,
+    lazy = false,
+    priority = 1000,
+    opts = {},
+    init = function ()
+        vim.cmd([[colorscheme gruvbox]])
+    end
+  },
+  {
     "rebelot/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim",
-    enabled = true,
+    enabled = false,
     lazy = false,
     priority = 1000,
     opts = {
