@@ -20,6 +20,7 @@ return {
             "taplo",                   -- TOML
             "docker_language_server",  -- Docker
             "texlab",                  -- LaTeX
+            "postgres_lsp",            -- PostgreSQL
         },
         ---@type boolean | string[] | { exclude: string[] }
         automatic_enable = {
