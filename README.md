@@ -14,7 +14,7 @@ Configuration files should be placed at:
 - **Go**: https://go.dev/doc/install
 - **Mason**-specific: https://github.com/mason-org/mason.nvim#requirements
 - **fzf**: https://github.com/junegunn/fzf
-
+- **ShellCheck** for Bash LS: https://github.com/koalaman/shellcheck
 
 # Environment Variables and Paths
 - Paths used internally are set in `nvim/lua/config/paths.lua`.
