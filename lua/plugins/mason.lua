@@ -15,6 +15,7 @@ return {
             "ruff",                    -- Python Linter/Code Formatter
             "bashls",                  -- Bash
             "markdown_oxide",          -- Markdown
+            "jsonls",                  -- JSON
             "lemminx",                 -- XML
             "yamlls",                  -- YAML
             "taplo",                   -- TOML
