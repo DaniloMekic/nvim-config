@@ -21,7 +21,7 @@ Configuration files should be placed at:
 - Paths used internally are set in `nvim/lua/config/paths.lua`.
 
 # Plugins
-- **File Explorer**: [Oil](https://github.com/stevearc/oil.nvim)
+- **File Explorer**: [Yazi](https://github.com/sxyazi/yazi) + [yazi.nvim](https://github.com/mikavilpas/yazi.nvim)
 - **Language Server Protocol** (LSP) **Server Management**: [Mason](github.com/mason-org/mason.nvim)
 - **Code Formatting**: [conform](https://github.com/stevearc/conform.nvim), [mason-conform](https://github.com/zapling/mason-conform.nvim)
 - **Linting**: [nvim-lint](https://github.com/mfussenegger/nvim-lint)
