@@ -34,6 +34,7 @@ return {{
             "passwd",
             "hyprlang", -- Hyprland Configuration Language
             "properties", -- Java Properties File
+            "dockerfile",
             -- Docs
             "vimdoc",
             "javadoc",
