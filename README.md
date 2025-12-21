@@ -15,6 +15,7 @@ Configuration files should be placed at:
 - **Mason**-specific: https://github.com/mason-org/mason.nvim#requirements
 - **fzf**: https://github.com/junegunn/fzf
 - **ShellCheck** for Bash LS: https://github.com/koalaman/shellcheck
+- `tree-sitter-cli`: https://archlinux.org/packages/extra/x86_64/tree-sitter-cli/
 
 # Environment Variables and Paths
 - Paths used internally are set in `nvim/lua/config/paths.lua`.
