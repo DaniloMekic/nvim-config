@@ -29,7 +29,3 @@ vim.keymap.set(
         vim.cmd("copen")
     end,
     { desc = "Toggle quickfix window" })
-
--- Oil
-local oil = require("oil")
-vim.keymap.set("n", "<Leader>e", function () oil.toggle_float() end)
