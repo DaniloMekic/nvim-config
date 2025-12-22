@@ -15,6 +15,7 @@ sudo pacman -S \
     npm \
     python \
     python-pip \
+    ripgrep \
     rust \
     shellcheck \
     tree-sitter-cli \
