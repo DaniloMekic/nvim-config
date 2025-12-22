@@ -1,4 +1,6 @@
 # Init
+Uses `pacman` (Arch Linux) to resolve system dependencies.
+
 ```bash
 git clone https://github.com/DaniloMekic/nvim-config.git ~/.config/nvim
 chmod +x init.sh
