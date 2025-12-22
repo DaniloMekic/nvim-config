@@ -3,8 +3,8 @@ Uses `pacman` (Arch Linux) to resolve system dependencies.
 
 ```bash
 git clone https://github.com/DaniloMekic/nvim-config.git ~/.config/nvim
-chmod +x init.sh
-./init.sh
+chmod +x ~/.config/nvim/init.sh
+~/.config/nvim/init.sh
 ```
 
 # Core Plugin Stack
