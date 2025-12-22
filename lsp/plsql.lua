@@ -3,7 +3,7 @@ return {
     cmd = {
         "java",
         "-jar",
-        vim.fn.expand("~/repo/plsql-ls/target/server-all.jar")
+        vim.fn.expand("~/.local/share/plsql_ls/plsql-ls.jar")
     },
     filetypes = { "plsql" },
 }
