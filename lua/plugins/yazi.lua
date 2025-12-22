@@ -1,5 +1,5 @@
-return
 ---@type LazySpec
+return
 {
     "mikavilpas/yazi.nvim",
     version = "*", -- use the latest stable version
