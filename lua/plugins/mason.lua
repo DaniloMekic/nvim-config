@@ -21,6 +21,7 @@ return {
             "taplo",                   -- TOML
             "docker_language_server",  -- Docker
             "texlab",                  -- LaTeX
+            "sqls",                    -- SQL
             "postgres_lsp",            -- PostgreSQL
         },
         ---@type boolean | string[] | { exclude: string[] }
