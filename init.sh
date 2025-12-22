@@ -19,6 +19,7 @@ sudo pacman -S \
     shellcheck \
     tree-sitter-cli \
     unzip \
+    yazi \
 
 # 
 # Language Servers
