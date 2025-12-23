@@ -3,7 +3,7 @@
 #
 # System Dependencies
 #
-sudo pacman -S \
+sudo pacman -S --needed \
     fzf \
     gcc \
     git \
@@ -11,7 +11,7 @@ sudo pacman -S \
     jdk-openjdk \
     lua \
     maven \
-    node \
+    nodejs \
     npm \
     python \
     python-pip \
