@@ -1,27 +1,5 @@
 #!/usr/bin/env bash
 
-#
-# System Dependencies
-#
-sudo pacman -S --needed \
-    fzf \
-    gcc \
-    git \
-    go \
-    jdk-openjdk \
-    lua \
-    maven \
-    nodejs \
-    npm \
-    python \
-    python-pip \
-    ripgrep \
-    rust \
-    shellcheck \
-    tree-sitter-cli \
-    unzip \
-    yazi \
-
 # 
 # Language Servers
 #
