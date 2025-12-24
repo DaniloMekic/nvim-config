@@ -1,10 +1,10 @@
-require("config.commands")
-require("config.diagnostics")
-require("config.keymap")
 require("config.lazy")
-require("config.lsp")
 require("config.options")
+require("config.commands")
+require("config.keymap")
 require("config.variables")
+require("config.diagnostics")
+require("config.lsp")
 
 vim.lsp.enable({
     "plsql",
