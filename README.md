@@ -5,7 +5,7 @@ $ chmod +x ~/.config/nvim/install
 $ ~/.config/nvim/install
 ```
 
-## Resolve system dependencies
+## Resolve System Dependencies
 ```shell
 $ source <(curl -s https://raw.githubusercontent.com/DaniloMekic/dotfiles/refs/heads/main/bootstrap)
 $ bootstrap_nvim
