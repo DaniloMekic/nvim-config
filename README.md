@@ -1,10 +1,14 @@
-# Init
-Uses `pacman` (Arch Linux) to resolve system dependencies.
+# Install
+```shell
+$ git clone https://github.com/DaniloMekic/nvim-config.git ~/.config/nvim
+$ chmod +x ~/.config/nvim/install
+$ ~/.config/nvim/install
+```
 
-```bash
-git clone https://github.com/DaniloMekic/nvim-config.git ~/.config/nvim
-chmod +x ~/.config/nvim/init.sh
-~/.config/nvim/init.sh
+## Resolve system dependencies
+```shell
+$ source <(curl -s https://raw.githubusercontent.com/DaniloMekic/dotfiles/refs/heads/main/bootstrap)
+$ bootstrap_nvim
 ```
 
 # Core Plugin Stack
