@@ -1,7 +1,7 @@
 return {
   {
     "ellisonleao/gruvbox.nvim",
-    enabled = true,
+    enabled = false,
     lazy = false,
     priority = 1000,
     opts = {},
@@ -12,14 +12,14 @@ return {
   {
     "rebelot/kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim",
-    enabled = false,
+    enabled = true,
     lazy = false,
     priority = 1000,
     opts = {
-      theme = "dragon"
+      theme = "wave"
     },
     init = function ()
-        vim.cmd([[colorscheme kanagawa-dragon]])
+        vim.cmd([[colorscheme kanagawa-wave]])
     end
   },
   {
